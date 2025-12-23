@@ -12,15 +12,15 @@ from datetime import datetime
 
 # Cloudinary Configuration
 cloudinary.config(
-    cloud_name="dnw11pui1",
-    api_key="366774748762333",
-    api_secret="IcSmluygFM8EBAm9bFCqoGWwrYg"
+    cloud_name=" ",
+    api_key=" ",
+    api_secret=" "
 )
 
 # Firebase Initialization
 cred = credentials.Certificate("serviceAccountKey.json")
 firebase_admin.initialize_app(cred, {
-    'databaseURL': "https://facerecognitionproject-676be-default-rtdb.firebaseio.com/"
+    'databaseURL': " "
 })
 
 # Define Placements
@@ -167,3 +167,4 @@ if __name__ == "__main__":
         generate_attendance_report(student_id)  #  Generate report after marking attendance
     else:
         print(" No Student ID provided! Exiting...")
+
