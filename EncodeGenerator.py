@@ -8,9 +8,9 @@ import cloudinary.api
 
 
 cloudinary.config(
-    cloud_name= "dnw11pui1",
-    api_key ="366774748762333",
-    api_secret ="IcSmluygFM8EBAm9bFCqoGWwrYg"
+    cloud_name= " ",
+    api_key =" ",
+    api_secret =" "
 )
 #importing the student images
 folderPath= 'Images'
@@ -60,4 +60,5 @@ print("Encoding complete")
 file =open("EncodeFile.p",'wb')
 pickle.dump(encodeListKnownWithIds,file)
 file.close()
+
 print("File Saved")
